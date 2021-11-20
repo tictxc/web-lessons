@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color:#000;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h2{
+    color:#000;
+    font-size: 20px;
+    font-weight: bold;
+}
+h3{
+    color:#000;
+    font-weight: bold;
+}
+h4{
+    color:#666;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+}
+p, ul, ol{
+    color:#666;
+    font-size: 14px;
+}
+.lst{
+    list-style-type: none;
+}
+span{
+    color:#c7254e;
+    background-color:#f9f2f4;
+    border-radius: 4px;
+}
+div{
+    width: 600px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    color:#666;
+    font-size: 12px;
+}
+.sz{
+    font-size: 20px;
+}
+.bold{
+    font-weight: bold;
+    color:#666;
+    background: none;
+}
+.thin{
+    font-weight: 100;
+    color:#666;
+    background: none;
+}
+.max{
+    font-weight: 900;
+    color:#666;
+    background: none;
+}
+.normal{
+    font-style:normal;
+    color:#666;
+    background: none;
+}
+.italic{
+    font-style:italic;
+    color:#666;
+    background: none;
+}
+.tnr{
+    font-family: 'Times New Roman', Times, serif;
+    color:#666;
+    background: none;
+}
+.red{
+    color:red;
+    background: none;
+}
+.upper{
+    text-transform: uppercase;
+    background: none;
+    color:#666;
+}
+.lower{
+    text-transform: lowercase;
+    background: none;
+    color:#666;
+}
+.cptlz{
+    text-transform: capitalize;
+    background: none;
+    color:#666;
+}
+.lnthrgh{
+    text-decoration: line-through;
+    background: none;
+    color:#666;
+}
+.ovrln{
+    text-decoration: overline;
+    background: none;
+    color:#666;
+}
+.undrln{
+    text-decoration: underline;
+    background: none;
+    color:#666;
+}
