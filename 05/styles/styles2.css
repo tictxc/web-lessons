@@ -1,0 +1,22 @@
+.box{
+    display:flex;
+    flex-direction:row;
+    width: 700px;
+    margin:auto;
+}
+.icons{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.txt{
+    padding-left: 15px;
+    border-left: 1px black solid;
+    text-align: justify;
+}
+.header{
+    font-size: 24px;
+    font-weight: 900;
+}
