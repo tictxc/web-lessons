@@ -1,0 +1,18 @@
+.first{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.second{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+.third{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
