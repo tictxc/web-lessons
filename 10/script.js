@@ -21,12 +21,12 @@ function culculateTheCostOfElecricity(){
     x = prompt('Введіть дані у кВт/год:', 121);
     console.log(`Вхідні дані: ${x} кВт/год`);
     x = Number(x);
-    if(x <= 100 && x > 0){
+    if(x <= 100 && x > -1){
         y = x * 0.9;
         console.log(`Вихідні дані: ${y} грн.`);
         alert(`За ${x} кВт/год ви маєте сплатити: ${y} грн.`);
     }
-    else if(x > 0){
+    else if(x > -1){
         y = 100 * 0.9 + (x - 100) * 1.68;
         console.log(`Вихідні дані: ${y} грн.`);
         alert(`За ${x} кВт/год ви маєте сплатити: ${y} грн.`);
