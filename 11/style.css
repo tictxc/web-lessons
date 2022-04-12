@@ -1,0 +1,25 @@
+.box{
+    width: 800px;
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+h1{
+    text-align: center;
+}
+.button_box{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+button{
+    background-color: dimgray;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+}
