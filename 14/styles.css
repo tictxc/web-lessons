@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+table{
+    border: 1px solid #69c;
+}
+th{
+    font-weight: normal;
+    color: rgba(0, 0, 255, 0.5);
+    border-bottom: 1px dashed #69c;
+    padding: 12px 17px;
+}
+td{
+    color: rgb(100, 100, 150);
+    padding: 7px 17px;
+}
+tr:hover td{
+    background: #ccddff;
+}
