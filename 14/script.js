@@ -50,7 +50,7 @@ createTableHead(table, heading);
 document.getElementById('body').appendChild(table);
 
 let min = objectList[0].temperature;
-let index;
+let index = 0;
 for(let i = 1; i < objectList.length; i++){
     if(min > objectList[i].temperature){
         min = objectList[i].temperature;
