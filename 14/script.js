@@ -52,7 +52,7 @@ document.getElementById('body').appendChild(table);
 let min = objectList[0].temperature;
 let index = 0;
 for(let i = 1; i < objectList.length; i++){
-    if(min > objectList[i].temperature){
+    if(objectList[i].temperature < min){
         min = objectList[i].temperature;
         index = i;
     }
