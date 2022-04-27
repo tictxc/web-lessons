@@ -11,6 +11,7 @@ for(let i = 0; i < count; i++){
     let str = prompt('Введіть назву дня тижня та температуру:');
     let arr = str.split(' ');
     arr = arr.filter(Boolean);
+    arr[1] = parseInt(arr[1]);
     let day = creatObject(arr[0], arr[1]);
     objectList.push(day);
 }
